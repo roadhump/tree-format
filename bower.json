@@ -1,6 +1,6 @@
 {
   "name": "tree-format",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Encode JavaScript data to 'tree' parameter format used by Jenkins.",
   "authors": [
     "Aliaksei Shytkin <e79eas@gmail.com>"
@@ -16,5 +16,7 @@
     "test",
     "tests"
   ],
-  "main": ["index.js"]
+  "main": [
+    "index.js"
+  ]
 }
