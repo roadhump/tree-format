@@ -1,0 +1,20 @@
+{
+  "name": "tree-format",
+  "version": "0.1.0",
+  "description": "Encode JavaScript data to 'tree' parameter format used by Jenkins.",
+  "authors": [
+    "Aliaksei Shytkin <e79eas@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "main": ["index.js"]
+}
