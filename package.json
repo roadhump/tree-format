@@ -4,12 +4,13 @@
   "description": "Encode JavaScript data to 'tree' parameter format used by Jenkins.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint index.js tests/tree-format.js && mocha tests"
+    "test": "node_modules/eslint/bin/eslint.js index.js tests/tree-format.js && node_modules/mocha/bin/mocha tests"
   },
   "author": "Aliaksei Shytkin <e79eas@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "chai": "^1.9.1",
-    "mocha": "^1.19.0"
+    "mocha": "^1.19.0",
+    "eslint": "^0.6.1"
   }
 }
