@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/roadhump/tree-format.svg?branch=master)](https://travis-ci.org/roadhump/tree-format)
+
 # tree-format
 
 ## Description
@@ -16,6 +18,6 @@ TreeFormat.stringify({a: ["b", "c"]}) // a[b,c]
 
 Aliaksei Shytkin
 
-## Licence 
+## Licence
 
 MIT
